@@ -12,6 +12,7 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        classpath 'com.google.gms:google-services:3.1.0'
     }
 }
 
@@ -46,9 +47,9 @@ ext {
     constraintLayoutVersion = '1.0.2'
     guavaVersion = '23.0-android'
     okhttpVersion = '3.9.0'
-    moshiVersion = '1.5.0'
     gsonVersion = '2.8.1'
     SwipeableRVVersion = '1.0.1'
+    firebaseVersion= '11.0.4'
     junitVersion = '4.12'
     runnerVersion = '0.5'
     rulesVersion = '0.5'

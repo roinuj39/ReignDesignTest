@@ -75,11 +75,9 @@ public class PostLocalDataSource implements PostDataSource {
 
         db.close();
 
-        Log.e("Database", posts.size()+" asdasd");
         if (posts.isEmpty()) {
             callback.onDataNotAvailable();
         } else {
-            Log.e("Database", posts.size()+" leng");
             callback.onPostsLoaded(posts);
         }
     }

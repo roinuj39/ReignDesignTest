@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "869678593061",
+    "firebase_url": "https://testreigndesign.firebaseio.com",
+    "project_id": "testreigndesign",
+    "storage_bucket": "testreigndesign.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869678593061:android:9bff0fd5baf6119a",
+        "android_client_info": {
+          "package_name": "com.jrmartinez.reigndesigntest.mock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869678593061-dp60amhv5t0pkrc7vu76s8fimv15jhae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jrmartinez.reigndesigntest.mock",
+            "certificate_hash": "e2b60a945210497b35d2c7a8c6d98abfd3c13afa"
+          }
+        },
+        {
+          "client_id": "869678593061-u05l91efl2t16blkf2uiho27k9pd5h75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9dWs88ol2hj05u_yyLu5cenB0Ij02ZD0"
+        },
+        {
+          "current_key": "AIzaSyAmPwCOPyAz1kH5-ilEce9RvcQ1mczMChc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869678593061-u05l91efl2t16blkf2uiho27k9pd5h75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869678593061:android:b1c54c58afb65ffe",
+        "android_client_info": {
+          "package_name": "com.jrmartinez.reigndesigntest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869678593061-p79e78hadjvl7o9m28sitvclpjo10jr7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jrmartinez.reigndesigntest",
+            "certificate_hash": "e2b60a945210497b35d2c7a8c6d98abfd3c13afa"
+          }
+        },
+        {
+          "client_id": "869678593061-u05l91efl2t16blkf2uiho27k9pd5h75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9dWs88ol2hj05u_yyLu5cenB0Ij02ZD0"
+        },
+        {
+          "current_key": "AIzaSyAmPwCOPyAz1kH5-ilEce9RvcQ1mczMChc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869678593061-u05l91efl2t16blkf2uiho27k9pd5h75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

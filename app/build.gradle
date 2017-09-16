@@ -52,12 +52,15 @@ dependencies {
     implementation "com.android.support:customtabs:$rootProject.supportLibraryVersion"
     implementation "com.google.guava:guava:$rootProject.guavaVersion"
     implementation "com.squareup.okhttp3:okhttp:$rootProject.ext.okhttpVersion"
-    implementation "com.squareup.moshi:moshi:$rootProject.ext.moshiVersion"
     implementation "com.github.huan-nguyen:SwipeableRV:$rootProject.ext.SwipeableRVVersion"
     implementation "com.google.code.gson:gson:$rootProject.ext.gsonVersion"
     implementation "com.android.support.constraint:constraint-layout:$rootProject.ext.constraintLayoutVersion"
+    implementation "com.google.firebase:firebase-crash:$rootProject.ext.firebaseVersion"
     testImplementation "junit:junit:$rootProject.ext.junitVersion"
     androidTestImplementation("com.android.support.test.espresso:espresso-core:$rootProject.espressoVersion", {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 }
+
+
+apply plugin: 'com.google.gms.google-services'

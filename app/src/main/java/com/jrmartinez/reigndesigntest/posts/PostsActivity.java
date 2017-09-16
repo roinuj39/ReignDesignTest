@@ -15,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
 
+import com.google.firebase.crash.FirebaseCrash;
 import com.jrmartinez.reigndesigntest.Injection;
 import com.jrmartinez.reigndesigntest.R;
 import com.jrmartinez.reigndesigntest.data.Post;
@@ -42,6 +43,7 @@ public class PostsActivity extends AppCompatActivity implements PostsContract.Vi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FirebaseCrash.log("Activity Created :)");
         setContentView(R.layout.activity_posts);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
