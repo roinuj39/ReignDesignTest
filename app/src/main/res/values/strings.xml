@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Reign Design Test</string>
+    <string name="title_activity_posts">Posts</string>
+    <string name="item_post_author_date">%1$s - %2$s</string>
+    <string name="title_activity_posts_web_view">PostsWebViewActivity</string>
+    <string name="label_empty_view">Made by Junior Martinez</string>
+    <string name="label_delete_item">DELETE</string>
+    <string name="label_deleted_item">DELETED</string>
+</resources>

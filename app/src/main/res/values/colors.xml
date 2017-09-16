@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffcb4d</color>
+    <color name="colorPrimaryDark">#ffb70f</color>
+    <color name="colorAccent">#505660</color>
+    <color name="colorDelete">#B71C1C</color>
+    <color name="colorSnackbar">#000</color>
+    <color name="colorDivider">#797f8a</color>
+</resources>

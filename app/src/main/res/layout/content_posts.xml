@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jrmartinez.reigndesigntest.posts.PostsActivity"
+    tools:showIn="@layout/activity_posts">
+
+    <com.jrmartinez.reigndesigntest.posts.ScrollChildSwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_posts_refresh_layout">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <io.huannguyen.swipeablerv.view.SWRecyclerView
+                android:id="@+id/activity_posts_list"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:border_color="@android:color/darker_gray"
+                app:ltr_swipe_background="@color/colorDelete"
+                app:rtl_swipe_background="@color/colorDelete"
+                app:swipe_message_text_size="@dimen/default_text_size_large"
+                app:swipe_message_bold="true"
+                app:ltr_swipe_icon="@drawable/ic_delete"
+                app:rtl_swipe_icon="@drawable/ic_delete"
+                app:ltr_snackbar_message="@string/label_deleted_item"
+                app:rtl_snackbar_message="@string/label_deleted_item"
+                app:ltr_snackbar_background="@color/colorSnackbar"
+                app:rtl_snackbar_background="@color/colorSnackbar"
+                app:has_border="true"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/activity_posts_empty_view"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_logo"
+                    android:scaleType="fitXY"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_margin="@dimen/default_margin"
+                    android:text="@string/label_empty_view"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.jrmartinez.reigndesigntest.posts.ScrollChildSwipeRefreshLayout>
+
+
+
+</LinearLayout>
