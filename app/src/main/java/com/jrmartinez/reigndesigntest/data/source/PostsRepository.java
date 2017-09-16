@@ -81,7 +81,7 @@ public class PostsRepository implements PostDataSource {
     @Override
     public void activePost(@NonNull Post post) {
         mPostsLocalDataSource.activePost(post);
-        mCachedPosts.put(post.getStoryId(), post);
+        mCachedPosts = null;
     }
 
     @Override
